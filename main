@@ -32,6 +32,9 @@ function wpcourses_breadcrumb( $sep = ' > ' ) {
 .wpcourses-breadcrumbs a {
   color: #ffffff;
 }
+.wpcourses-breadcrumbs:hover > a {
+  color: #db383a;
+}
 .wpcourses-breadcrumbs-sep {
   color: #ffffff;
 }
